@@ -324,13 +324,13 @@ function App() {
               <h3 className='smallHeader'>Business</h3>
               <ul>
                 <li>
-                  <a href=''>Apply IDO</a>
+                  <a href='#apply'>Apply IDO</a>
                 </li>
                 <li>
-                  <a href=''>Apply Incubation</a>
+                  <a href='#apply'>Apply Incubation</a>
                 </li>
                 <li>
-                  <a href=''>Selection Process</a>
+                  <a href='#select'>Selection Process</a>
                 </li>
               </ul>
             </div>
@@ -339,16 +339,16 @@ function App() {
               <h3 className='smallHeader'>Help</h3>
               <ul>
                 <li>
-                  <a href=''>Terms & Condition</a>
+                  <a href='#t&c'>Terms & Condition</a>
                 </li>
                 <li>
-                  <a href=''>Privacy Policy</a>
+                  <a href='#privacy'>Privacy Policy</a>
                 </li>
                 <li>
-                  <a href=''>Contact & Support</a>
+                  <a href='#contact'>Contact & Support</a>
                 </li>
                 <li>
-                  <a href=''>Whitepaper</a>
+                  <a href='#whitepaper'>Whitepaper</a>
                 </li>
               </ul>
             </div>
@@ -358,16 +358,16 @@ function App() {
               <h3 className='smallHeader'>Social</h3>
               <ul>
                 <li>
-                  <a href=''>Telegram</a>
+                  <a href='#telegram'>Telegram</a>
                 </li>
                 <li>
-                  <a href=''>Twitter</a>
+                  <a href='#twitter'>Twitter</a>
                 </li>
                 <li>
-                  <a href=''>Medium</a>
+                  <a href='#medium'>Medium</a>
                 </li>
                 <li>
-                  <a href=''>Github</a>
+                  <a href='#git'>Github</a>
                 </li>
               </ul>
             </div>
