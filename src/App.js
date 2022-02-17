@@ -31,7 +31,7 @@ function App() {
       </div>
 
       {/* Hero */}
-      <section id='hero' className='px-3 px-lg-0'>
+      <section id='sales' className='px-3 px-lg-0'>
         {/* Wrapper */}
         <div className='container'>
           <div className='row justify-content-around'>
@@ -284,12 +284,103 @@ function App() {
                   <div className='divider'></div>
                 </div>
               </div>
+
+              <div className='row'>
+                <div className='col-12 d-flex justify-content-between'>
+                  <p className='smallHeader'>Progress</p>
+                  <p className='smallHeader value'>242034.2132 BUSD</p>
+                </div>
+
+                <div className='col-12'>
+                  <div class='progress'>
+                    <div
+                      class='progress-bar'
+                      role='progressbar'
+                      aria-valuenow='20'
+                      aria-valuemin='0'
+                      aria-valuemax='100'
+                    ></div>
+                  </div>
+                </div>
+              </div>
             </div>
             {/* End of Right */}
           </div>
         </div>
         {/* End of Container */}
       </section>
+
+      <footer>
+        <div className='container'>
+          <div className='row justify-content-between'>
+            <div className='col-lg-6'>
+              <img src={logo} alt='' />
+              <p className='bodyCopy mt-3'>
+                Homwere © Copyright 2022 <br /> All rights reserved.
+              </p>
+            </div>
+            {/* Business */}
+            <div className='col-lg-2 ms-auto'>
+              <h3 className='smallHeader'>Business</h3>
+              <ul>
+                <li>
+                  <a href=''>Apply IDO</a>
+                </li>
+                <li>
+                  <a href=''>Apply Incubation</a>
+                </li>
+                <li>
+                  <a href=''>Selection Process</a>
+                </li>
+              </ul>
+            </div>
+            {/* Help */}
+            <div className='col-lg-2'>
+              <h3 className='smallHeader'>Help</h3>
+              <ul>
+                <li>
+                  <a href=''>Terms & Condition</a>
+                </li>
+                <li>
+                  <a href=''>Privacy Policy</a>
+                </li>
+                <li>
+                  <a href=''>Contact & Support</a>
+                </li>
+                <li>
+                  <a href=''>Whitepaper</a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Social */}
+            <div className='col-lg-2'>
+              <h3 className='smallHeader'>Social</h3>
+              <ul>
+                <li>
+                  <a href=''>Telegram</a>
+                </li>
+                <li>
+                  <a href=''>Twitter</a>
+                </li>
+                <li>
+                  <a href=''>Medium</a>
+                </li>
+                <li>
+                  <a href=''>Github</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* divider */}
+          <div className='row spacer'>
+            <div className='col-12'>
+              <div className='divider'></div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
