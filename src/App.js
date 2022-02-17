@@ -379,6 +379,34 @@ function App() {
               <div className='divider'></div>
             </div>
           </div>
+
+          <div className='row'>
+            <div className='col-lg-5 mx-auto my-3'>
+              <ul className='socialIcons'>
+                <li>
+                  <img src={facebookIcon} alt='' />
+                </li>
+                <li>
+                  <img src={linkedinIcon} alt='' />
+                </li>
+                <li>
+                  <img src={twitterIcon} alt='' />
+                </li>
+                <li>
+                  <img src={youtubeIcon} alt='' />
+                </li>
+                <li>
+                  <img src={telegramIcon} alt='' />
+                </li>
+                <li>
+                  <img src={mediumIcon} alt='' />
+                </li>
+                <li>
+                  <img src={githubIcon} alt='' />
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
