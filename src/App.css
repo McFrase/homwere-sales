@@ -14,6 +14,7 @@
 
 .value {
   color: var(--blue);
+  cursor: pointer;
 }
 
 *,
@@ -60,6 +61,7 @@ body {
   left: 0;
   width: 100%;
   background: var(--dark);
+  z-index: 100;
 }
 .nav .container {
   height: 100%;
@@ -156,6 +158,47 @@ body {
 
 .timer#second::before {
   content: 'Seconds';
+}
+
+.inputGroup {
+  position: relative;
+}
+
+input {
+  background: var(--purple-theme) !important;
+  border: none !important;
+  padding: 20px 30px !important;
+  margin-top: 10px;
+}
+
+.floatInput {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  background: var(--purple-theme) !important;
+  color: var(--white) !important;
+  border: none !important;
+  padding: 10px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.formBtn {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: none !important;
+  background: var(--purple-theme);
+  color: var(--white);
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {

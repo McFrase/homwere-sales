@@ -11,6 +11,7 @@ import githubIcon from '../src/social icons/ei_sc-github.svg';
 import linkedinIcon from '../src/social icons/ei_sc-linkedin.svg';
 import telegramIcon from '../src/social icons/ei_sc-telegram.svg';
 import youtubeIcon from '../src/social icons/ei_sc-youtube.svg';
+import arrowDownIcon from '../src/bi_arrow-down.svg';
 
 function App() {
   return (
@@ -218,6 +219,69 @@ function App() {
                 <div className='col-12 d-flex justify-content-between'>
                   <p className='smallHeader'>Swap Ratio:</p>
                   <p className='smallHeader value'>1 MTB = 0.0001 BUSD</p>
+                </div>
+              </div>
+
+              {/* Form */}
+              <form action=''>
+                {/* Input for From */}
+                <div className='form-group my-3'>
+                  <label
+                    htmlFor='fromInput'
+                    className='d-flex justify-content-between'
+                  >
+                    <span className='bodyCopy'>From</span>
+                    <span className='bodyCopy'>Allocation:</span>
+                  </label>
+                  <div className='inputGroup'>
+                    <input
+                      type='text'
+                      className='form-control form-control-lg'
+                      placeholder='0'
+                    />
+                    <select name='' id='' className='floatInput'>
+                      <option value='' selected>
+                        BUSD
+                      </option>
+                      <option value=''>BUSD</option>
+                      <option value=''>BUSD</option>
+                    </select>
+                  </div>
+                </div>
+
+                {/* Arrow Down */}
+                <div className='col-12 text-center'>
+                  <img src={arrowDownIcon} alt='' />
+                </div>
+
+                {/* Input for To */}
+                <div className='form-group my-3'>
+                  <label
+                    htmlFor='toInput'
+                    className='d-flex justify-content-between'
+                  >
+                    <span className='bodyCopy'>To</span>
+                    <span className='bodyCopy'>Max Allocation:</span>
+                  </label>
+                  <div className='inputGroup'>
+                    <input
+                      type='text'
+                      className='form-control form-control-lg'
+                      placeholder='0'
+                    />
+                  </div>
+                </div>
+
+                {/* submit button */}
+                <button className='formBtn' type='submit' disabled>
+                  Purchase
+                </button>
+              </form>
+
+              {/* divider */}
+              <div className='row spacer'>
+                <div className='col-12'>
+                  <div className='divider'></div>
                 </div>
               </div>
             </div>
