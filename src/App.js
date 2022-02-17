@@ -1,5 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/countdown.js';
 import logo from '../src/logo.svg';
 import webIcon from '../src/mdi_web.svg';
