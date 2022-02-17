@@ -148,14 +148,36 @@ function App() {
               </div>
 
               {/* Timer */}
-              <div className="row">
-                  <div class="countdown">
-                    <div id="day">NA</div>
-                    <div id="hour">NA</div>
-                    <div id="minute">NA</div>
-                    <div id="second">NA</div>
-                    </div>
+              <div className="row justify-content-between my-3">
+                <div className="col-3">
+                <div className="timer" id="day"></div>
+                </div>
+                <div className="col-3">
+                <div className="timer" id="hour"></div>
+                </div>
+                <div className="col-3">
+                <div className="timer" id="minute"></div>
+                </div>
+                <div className="col-3">
+                <div className="timer" id="second"></div>
+                </div>
               </div>
+
+              {/* after timer */}
+                                  <div className="row">
+                      <div className="col-12 d-flex justify-content-between">
+                        <p className="bodyCopy">Wallet Balance:</p>
+                        <p className="bodyCopy value">0 BUSD</p>
+                    </div>
+                      <div className="col-12 d-flex justify-content-between flex-wrap">
+                        <p className="bodyCopy">Max Allocation:</p>
+                        <p className="bodyCopy value">0 BUSD</p>
+                    </div>
+                      <div className="col-12 d-flex justify-content-between">
+                        <p className="bodyCopy">Purchased:</p>
+                        <p className="bodyCopy value">0 HMW</p>
+                    </div>
+                  </div>
             </div>
             {/* End of Right */}
           </div>
