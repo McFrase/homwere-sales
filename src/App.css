@@ -43,7 +43,7 @@ body {
 }
 .bodyCopy {
   font-size: var(--body-copy);
-  font-weight: lighter;
+  /* font-weight: lighter; */
 }
 .mainHeader {
   font-size: var(--main-header);
